@@ -6,7 +6,6 @@ var path = require( 'path' ),
 
 module.exports = rename;
 function rename(inputdir, outputdir, options, callback) {
-  console.log(inputdir);
   function processdir (dir, cb) {
     fs.readdir(dir, function (err, files) {
       var remaining = files.length, result = [], check;
