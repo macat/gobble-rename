@@ -3,7 +3,7 @@
   "description": "Rename files using pattern",
   "version": "0.1.0",
   "author": "Attila Maczak",
- "license": "MIT",
+  "license": "MIT",
   "repository": "https://github.com/macat/gobble-rename",
   "keywords": [
     "gobble",
@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "graceful-fs": "~3.0.2",
-    "sander": "^0.2.1",
+    "sander": "^0.2.2",
     "symlink-or-copy": "^1.0.0"
   }
 }
