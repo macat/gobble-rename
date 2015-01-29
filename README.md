@@ -24,10 +24,12 @@ to: 'replacewith');
 This will look for files with filename containing 'searchstring' and renames
 them with 'replacewith'.
 
-a/b/c/searchstring.css > a/b/c/replacewith.css
+`a/b/c/searchstring.css > a/b/c/replacewith.css`
 
 ## License
 
 MIT. Copyright 2015 Attila Maczak
+
 Based on gobble's builtins/include.js.
+
 MIT Licensed. Copyright 2014 Rich Harris.
