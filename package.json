@@ -1,0 +1,21 @@
+{
+  "name": "gobble-rename",
+  "description": "Rename files using pattern",
+  "version": "0.1.0",
+  "author": "Attila Maczak",
+ "license": "MIT",
+  "repository": "https://github.com/macat/gobble-rename",
+  "keywords": [
+    "gobble",
+    "gobble-plugin"
+  ],
+  "files": [
+    "index.js",
+    "builders"
+  ],
+  "dependencies": {
+    "graceful-fs": "~3.0.2",
+    "sander": "^0.2.1",
+    "symlink-or-copy": "^1.0.0"
+  }
+}
